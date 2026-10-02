@@ -1,0 +1,1 @@
+Close the assistant. Copy the updated project files over your existing project folder, keeping node_modules. Run npm start. File cards now show only the file name, Open button and path. Internal IDs, text-location labels, partial-match notices and source-excerpt controls are hidden. No dependency, index or AWS changes are needed.

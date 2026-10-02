@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+**/bin/
+**/obj/
+helper/publish/
+*.db*
+.env
+
+# Visual Studio local files
+.vs/
+**/.vs/

@@ -1,0 +1,4 @@
+Sample project notes
+The desktop assistant follows the active File Explorer drive or folder.
+Its search scope includes nested folders. In the first pilot, document search uses keyword retrieval.
+Bedrock generates answers only after the user enables the Answer API mode.

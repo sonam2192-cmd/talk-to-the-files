@@ -1,0 +1,17 @@
+ASK MY FILES — FIRST RUN ON WINDOWS
+
+1. Install current Node.js 24 LTS and .NET 10 SDK.
+2. Extract this project. Open PowerShell in the folder containing package.json.
+3. Run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Start-Desktop.ps1
+4. Click Choose location and select the included sample-docs folder.
+5. Wait for indexing. Ask: What does AWS architecture say about security?
+6. Enable Follow Explorer, navigate to your drive in Windows Explorer, verify the
+   displayed path and click Enable this location. Its subfolders are included.
+
+Local mode returns real matching excerpts without AWS credentials.
+For AI-written answers, follow README.md section 3 to start the Bedrock API.
+
+This ZIP contains source code, not a prebuilt EXE. The React build and 12 tests
+passed here. The C# build, Windows integration and live AWS call still need
+verification on your laptop. See VALIDATION.md for details.
